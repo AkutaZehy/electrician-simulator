@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Electrician Simulator"
+config/description="A compo game for LD59."
+config/version="1.0"
+run/main_scene="uid://w1yf27v3keyg"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
+boot_splash/show_image=false
+config/icon="uid://crrh8qbppf10x"
+
+[audio]
+
+buses/default_bus_layout=""
+
+[dotnet]
+
+project/assembly_name="Electrician Simulator"
+
+[gui]
+
+theme/custom_font="uid://bk1in5ts0pqgw"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
